@@ -5,7 +5,7 @@
 
 ## Overview
 
-The Dopt users JavaScript client is a friendly server-side package for accessing identifying users and groups and properties associated with them to Dopt.
+The Dopt users JavaScript client is a friendly server-side package for identifying users and/or groups along with properties associated with them to Dopt.
 
 It is published to npm as [`@dopt/users-javascript-node-client`](https://www.npmjs.com/package/@dopt/users-javascript-node-client).
 
@@ -46,7 +46,7 @@ To configure the Users JavaScript Client you will need
 import { DoptApiClient } from '@dopt/users-javascript-node-client';
 
 const client = new DoptApiClient({
-  apiKey: process.env.DOPT_USERSS_API_KEY as string,
+  apiKey: process.env.DOPT_USERS_API_KEY,
 });
 ```
 
